@@ -498,6 +498,12 @@
 	icon_state = "slmagnum_r"
 	ammo_type = /obj/item/ammo_casing/magnum/rubber
 
+/obj/item/ammo_magazine/slmagnum/key
+	name = "blaster speed loader (.40 Magnum)"
+	icon_state = "slmagnum_l"
+	max_ammo = 10
+
+
 ////.50 speed loader////
 
 /obj/item/ammo_magazine/sl50

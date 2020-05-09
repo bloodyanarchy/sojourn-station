@@ -143,6 +143,24 @@
 	)
 	price_tag = 250
 
+
+/obj/item/clothing/suit/storage/rank/key_coat
+	name = "shearling coat"
+	desc = "When you're not performing your duties do they keep you in a little box? Cells."
+	icon_state = "key_coat"
+	item_state = "key_coat"
+	blood_overlay_type = "coat"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
+	armor = list(
+		melee = 35,
+		bullet = 75,
+		energy = 35,
+		bomb = 0,
+		bio = 0,
+		rad = 0
+	)
+	price_tag = 750
+
 //Engineering
 /obj/item/clothing/suit/storage/hazardvest
 	name = "hazard vest"
